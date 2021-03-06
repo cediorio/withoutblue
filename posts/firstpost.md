@@ -1,26 +1,20 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
+title: Tech cadences in Creative Coding
+description: Configuring a creative urge 
+date: 2021-02-15
 tags:
-  - another-tag
+  - creative-coding
+  - tidal
+  - hydra
+  - emacs
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I'm going to start tracking what I do. I lose myself in configuration and with no accountability, get nowhere. Posting is a weird accountability. Can always take it down later, of course, but recounting, summarizing a day's work in the mixed-media trenches, maybe that will lead to something?
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+## TidalCycles
 
-## Section Header
+First, sound. There is a beauty in this thing Alex McLean (@yaxu) has built:
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log('Test');
+``` 
+d1 $ s "~ [bd ~ bd]"
 ```
