@@ -1,26 +1,29 @@
 ---
-lang: en
+title: Modules in Javascript
+description: Notes for myself
+date: 2021-02-15
+tags:
+  - javascript
+  - ES-6
+layout: layouts/post.njk
 ---
-
-[Javascript Modules]{.title}
 
 Contents
 ========
 
-[Reasons for Modules](#reasons)
+[Reasons for Modules](#reasons-for-modules)
 
-[Using Modules - Three Approaches](#usingModules)
+[Using Modules - Three Approaches](#using-modules---three-approaches)
 
-[Module Pattern](#modulePattern)
+[Module Pattern](#module-pattern)
 
--   [Anonymous Closure](#AnonymousClosure)
--   [Global Import](#GlobalImport)
--   [Object Interface or Module Export](#ObjectInterface)
--   [Revealing Module](#RevealingModule)
+-   [Anonymous Closure](#anonymous-closure)
+-   [Global Import](#global-import)
+-   [Object Interface or Module Export](#object-interface-or-module-export)
+-   [Revealing Module](#revealing-module)
 
 [Resources](#resources)
 
-[]{#reasons}
 
 Reasons for Modules
 ===================
@@ -29,17 +32,11 @@ Reasons for Modules
 -   namespacing
 -   reusability
 
-[]{#usingModules}
-
 Using Modules - Three Approaches
 ================================
 
-[]{#modulePattern}
-
 Module Pattern
 --------------
-
-[]{#AnonymousClosure}
 
 ### Anonymous Closure
 
@@ -65,8 +62,6 @@ See the Pen
 by Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on
 [CodePen](https://codepen.io).
 
-[]{#GlobalImport}
-
 ### Global Import
 
       
@@ -85,7 +80,6 @@ See the Pen [Global Import](https://codepen.io/cediorio/pen/NWWWjXj) by
 Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on
 [CodePen](https://codepen.io).
 
-[]{#ObjectInterface}
 
 ### Object Interface or Module Export
 
@@ -120,8 +114,6 @@ See the Pen [Object
 Interface](https://codepen.io/cediorio/pen/427ac5da267d1e24bf7d91b05ac3503b)
 by Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on
 [CodePen](https://codepen.io).
-
-[]{#RevealingModule}
 
 ### Revealing Module
 
@@ -161,13 +153,6 @@ See the Pen [Revealing Module](https://codepen.io/cediorio/pen/abbbyMY)
 by Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on
 [CodePen](https://codepen.io).
 
-CommonJS & AMD
---------------
-
-ES6 Imports
------------
-
-[]{#resources}
 
 Resources
 =========
