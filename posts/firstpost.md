@@ -9,12 +9,17 @@ tags:
   - emacs
 layout: layouts/post.njk
 ---
-I'm going to start tracking what I do. I lose myself in configuration and with no accountability, get nowhere. Posting is a weird accountability. Can always take it down later, of course, but recounting, summarizing a day's work in the mixed-media trenches, maybe that will lead to something?
+So here's where I spend my time now:
 
 ## TidalCycles
 
-First, sound. There is a beauty in this thing Alex McLean (@yaxu) has built:
+First, sound. There is a beauty in this [tidalcycles](https://tidalcycles.org/Welcome) thing Alex McLean (@yaxu) has built:
 
 ``` 
 d1 $ s "~ [bd ~ bd]"
+
 ```
+
+## Hydra
+
+...and this thing that @ojack has built, [hydra](https://hydra.ojack.xyz/)
