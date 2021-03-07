@@ -80,7 +80,7 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
-  // eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("img");
   // eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("css/fonts");
   eleventyConfig.addPassthroughCopy("media");
