@@ -64,6 +64,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("media");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
