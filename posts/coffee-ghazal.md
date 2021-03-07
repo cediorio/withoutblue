@@ -3,6 +3,7 @@ title: Partial Coffee Ghazal.
 date: 2011-09-01
 tags:
  - poetry
+ - posts
 layout: layouts/post.njk
 ---
 

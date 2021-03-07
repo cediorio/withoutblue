@@ -3,6 +3,7 @@ title: Georgian Bay
 date: 2011-09-11
 tags:
  - poetry
+ - posts
 layout: layouts/post.njk
 ---
 

@@ -3,6 +3,7 @@ title: blogging without organs
 date: 2011-09-11
 tags:
  - theory
+ - posts
 layout: layouts/post.njk
 ---
 

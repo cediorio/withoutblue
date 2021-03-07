@@ -1,5 +1,5 @@
 ---
-title: Tech cadences in Creative Coding
+title: My tech cadences in creative coding
 description: Configuring a creative urge 
 date: 2021-02-15
 tags:
@@ -7,6 +7,7 @@ tags:
   - tidal
   - hydra
   - emacs
+  - posts
 layout: layouts/post.njk
 ---
 So here's where I spend my time now:

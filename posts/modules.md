@@ -5,6 +5,7 @@ date: 2021-02-15
 tags:
   - javascript
   - ES-6
+  - posts
 layout: layouts/post.njk
 ---
 

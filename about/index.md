@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+I write/code expressive experiments in English, tidalcycles, and hydra. 
