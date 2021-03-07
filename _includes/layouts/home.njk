@@ -2,4 +2,8 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
+{% include "partials/_header.html" %}
+
 {{ content | safe }}
+
+{% include "partials/_footer.html" %}

@@ -82,6 +82,7 @@ module.exports = function(eleventyConfig) {
 
   // eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("css/fonts");
   eleventyConfig.addPassthroughCopy("media");
 
   /* Markdown Overrides */
