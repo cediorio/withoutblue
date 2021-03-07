@@ -7,5 +7,5 @@ tags:
 layout: layouts/post.njk
 ---
 
-![cut](/media/cut.png)
+{% image "./media/cut.png", "cut" %}
  

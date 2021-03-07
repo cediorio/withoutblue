@@ -6,6 +6,6 @@ tags:
  - posts
 layout: layouts/post.njk
 ---
- 
-![nascent](/media/wall.jpg)
+
+{% image "./media/wall.jpg", "nascent"%}
 
