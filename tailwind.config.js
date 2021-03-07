@@ -1,7 +1,10 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  purge: [],
+  purge: [
+    '_includes/**/*.html',
+   '_includes/**/*.njk',
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -11,10 +14,10 @@ module.exports = {
           dark: "#6b705c",
         }
       },
-    },
-    fontFamily: {
-      serif: ['Cutive\\ Mono', ...defaultTheme.fontFamily.serif],
-      brand: ['Cutive\\ Mono', ...defaultTheme.fontFamily.serif]
+      fontFamily: {
+        serif: ['Cutive\\ Mono', ...defaultTheme.fontFamily.serif],
+        brand: ['Cutive\\ Mono', ...defaultTheme.fontFamily.serif]
+      },
     },
   },
   variants: {

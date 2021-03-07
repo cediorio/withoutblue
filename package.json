@@ -7,7 +7,7 @@
 	"serve": "eleventy --serve",
 	"debug": "DEBUG=* eleventy",
 	"tailwind-build": "postcss css/tailwind.css -o _site/css/tailwind.css",
-	"start": "eleventy --serve & postcss css/tailwind.css --o _site/css/tailwind.css --watch",
+	"start": "npx eleventy --serve & postcss css/tailwind.css --o _site/css/tailwind.css --watch",
 	"build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production postcss css/tailwind.css --o _site/css/tailwind.css"
   },
   "repository": {
