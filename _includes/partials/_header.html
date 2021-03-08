@@ -1,10 +1,10 @@
-    <header class="flex items-center justify-between px-8 border-b-2 border-brand-light border-opacity-75">
-      <h1 class="home font-sans text-2xl sm:text-1xl"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+    <header class="nav flex items-center items-baseline justify-between px-16 border-b-2 border-brand-light border-opacity-75">
+      <h1 class="font-sans text-3xl sm:text-1xl"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
+      <div class="align-text-bottom space-x-3.5">
       {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+      <a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
-      </ul>
+      </div>
     </header>

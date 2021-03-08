@@ -9,6 +9,12 @@
 
 @tailwind components;
 
+.nav {
+    & a {
+	@apply no-underline;
+    }
+}
+
 .postlist {
     @apply list-none p-0;
 }
