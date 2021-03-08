@@ -3,7 +3,7 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "dev": "rm -rf _site && mkdir _site && mkdir _site/css && postcss css/tailwind.css > _site/css/tailwind.css && npx eleventy --serve --quiet",
+    "dev": "rm -rf _site && mkdir _site && mkdir _site/css && postcss css/tailwind.css > _site/css/tailwind.css && npx eleventy --watch --quiet",
     "build": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy && NODE_ENV=production postcss css/tailwind.css > _site/css/tailwind.css"
   },
   "repository": {
@@ -29,10 +29,12 @@
     "@11ty/eleventy-plugin-rss": "^1.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "autoprefixer": "^10.2.5",
+    "eleventy": "^1.0.6",
     "luxon": "^1.26.0",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.3.0",
     "postcss-cli": "^8.3.1",
+    "postcss-nesting": "^7.0.1",
     "sharp": "^0.27.2",
     "tailwindcss": "^2.0.3"
   }
