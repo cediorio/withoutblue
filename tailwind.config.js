@@ -18,10 +18,15 @@ module.exports = {
         serif: ['Cutive\\ Mono', ...defaultTheme.fontFamily.serif],
         brand: ['Cutive\\ Mono', ...defaultTheme.fontFamily.serif]
       },
+      fontSize: {
+        'xxs': '.65rem',
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-counter')(),
+  ],
 }

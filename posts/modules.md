@@ -48,15 +48,14 @@ Module Pattern
       }());
       
       
+An anonymous closure has its own evaluation environment \-- the scope
+of the anonymous function protects variables inside the closure. You
+can use variables inside the closure without fear of overwriting
+global variables, but you still have access to any global variables.
 
-An anonymous closure has its own evaluation environment \-- the scope of
-the anonymous function protects variables inside the closure. You can
-use variables inside the closure without fear of overwriting global
-variables, but you still have access to any global variables.
-
-Note that the \"()\" around the anonymous function is required, because
-any statement that begins with `function` is always considered to be a
-**function declaration**.
+Note that the \"()\" around the anonymous function is required,
+because any statement that begins with `function` is always considered
+to be a **function declaration**.
 
 See the Pen
 [d21b316c6b5b95bc12d64fada9b1a2e6](https://codepen.io/cediorio/pen/d21b316c6b5b95bc12d64fada9b1a2e6)
@@ -71,11 +70,10 @@ by Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on
       }(jQuery, YAHOO));
       
       
-
 A global import both makes the import/use of globals in the closure
 explicit and also makes the code run faster (presumably because the
-interpreter does not have to climb back up the chain to find the global
-variable).
+interpreter does not have to climb back up the chain to find the
+global variable).
 
 See the Pen [Global Import](https://codepen.io/cediorio/pen/NWWWjXj) by
 Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on
@@ -147,8 +145,7 @@ by Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on
       
       
 
-The Revealing Module pattern creates public pointers to private
-functions, which means that
+The Revealing Module pattern creates public pointers to private functions.
 
 See the Pen [Revealing Module](https://codepen.io/cediorio/pen/abbbyMY)
 by Chris D\'Iorio ([\@cediorio](https://codepen.io/cediorio)) on

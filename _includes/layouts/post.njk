@@ -4,12 +4,15 @@ templateClass: tmpl-post
 ---
 {% include "partials/_header.html" %}
 
-<h1>{{ title }}</h1>
-
 <main>
-<article>
-{{ content | safe }}
-</article>
+  <div class="container px-6 sm:px-12 lg:px-48 pb-12 sm:pb-20 pt-4 sm:pt-8 leading-tight sm:leading-normal text-center sm:text-left m-auto">
+    <div class="markdown">
+      <article>
+	<div class="text-4xl sm:text-4xl"> {{ title }}</div>
+	{{ content | safe }}
+      </article>
+    </div>
+  </div>
 </main>
 
 <hr>
