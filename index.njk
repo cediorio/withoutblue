@@ -5,9 +5,11 @@ eleventyNavigation:
   order: 1
 ---
 
+{% include "layouts/gallery.njk" %}
+
 <h1>Latest Posts</h1>
 
-{% set postslist = collections.posts | head(-3) %}
+{% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
