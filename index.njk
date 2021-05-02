@@ -5,9 +5,12 @@ eleventyNavigation:
   order: 1
 ---
 
+<h1>recent hydra sketches</h1>
+{% set gallerylist = collections.gallery | head(-3) %}
+{% set gallerylistCounter = collections.gallery | length %}
 {% include "layouts/gallery.njk" %}
 
-<h1>Latest Posts</h1>
+<h1>latest posts</h1>
 
 {% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}

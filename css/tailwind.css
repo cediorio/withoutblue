@@ -46,7 +46,7 @@
 }
 
 h1 {
-    @apply font-serif leading-tight text-2xl font-bold mt-6;
+    @apply font-serif leading-tight text-2xl font-bold mt-12;
 }
 
 h2 {
