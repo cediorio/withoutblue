@@ -5,11 +5,6 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>recent hydra sketches</h1>
-{% set gallerylist = collections.gallery | head(-3) %}
-{% set gallerylistCounter = collections.gallery | length %}
-{% include "layouts/gallery.njk" %}
-
 <h1>latest posts</h1>
 
 {% set postslist = collections.posts | head(-5) %}
@@ -17,3 +12,8 @@ eleventyNavigation:
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+
+<h1>recent hydra sketches</h1>
+{% set gallerylist = collections.gallery | head(-6) %}
+{% set gallerylistCounter = collections.gallery | length %}
+{% include "layouts/gallery.njk" %}
