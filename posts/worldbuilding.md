@@ -1,5 +1,5 @@
 ---
-title: first_principalities_in_a_world-building_exercise
+title: first principalities in a world-building exercise
 date: 2022-02-18
 tags:
  - poetry
