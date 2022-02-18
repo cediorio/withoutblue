@@ -1,4 +1,11 @@
-
+---
+title: a quick study
+date: 2022-02-18
+tags:
+ - poetry
+ - posts
+layout: layouts/post.njk
+---
 
 > Alas, Edie, we are no longer ourselves. Something came by and cut  me down in the night. I was sure you'd notice.
 - John Ashbery, "Coma Berenices", *Where Shall I Wander*
