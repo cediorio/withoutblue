@@ -6,8 +6,9 @@ eleventyNavigation:
   key: About Me
   order: 3
 ---
+wrangling strings/viz/sound for a lifetime 
 
-I write/code expressive experiments in English, tidalcycles, and hydra. 
+I write/code expressive experiments in English, openframeworks, processing, tidalcycles, hydra, etc...
 
 I have a book of poetry out from a few years ago: 
 
