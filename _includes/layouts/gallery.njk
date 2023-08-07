@@ -1,9 +1,0 @@
-<div class="flex flex-wrap -mb-4">
-    {%- for image in gallerylist | reverse -%}
-  <div class="w-1/4 overflow-hidden h-40 w-40">
-    <a href="{{ image.data.page_url }}" a target="_blank">
-    <h1 class="text-xs text-center">{{ image.data.name}}</h1>
-    <img class="object-center object-cover" src="{{image.data.img_url}}"/></a>
-  </div>
-    {%- endfor -%}     
-</div>
