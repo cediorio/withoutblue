@@ -1,0 +1,16 @@
+{
+  "name": "withoutblue",
+  "version": "0.1.0",
+  "description": "home page design incorporating hydra",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy && NODE_ENV=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^2.8.0"
+  }
+}

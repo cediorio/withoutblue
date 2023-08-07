@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<title>without blue</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- import the webpage's stylesheet -->
+<link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="css/w3.css">
+
+<!-- google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e2304d304b.js" crossorigin="anonymous"></script>
+<!-- import the latest version of hydra synth-->
+<script src="https://unpkg.com/hydra-synth"></script>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Handjet', cursive;
+    }
+</style>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="w3-bar w3-black w3-top">
+        <a href="#init" class="w3-button w3-bar-item">
+            <h3>without blue</h3>
+        </a>
+    </nav>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="init">
+        <canvas id="myCanvas" width="1000px" height="800px"></canvas>
+
+        <script>
+            // create a new hydra-synth instance
+            var hydra = new Hydra({
+                canvas: document.getElementById("myCanvas"),
+                detectAudio: false
+            })
+
+            osc(50, 0.01)
+                .diff(osc(50, 0.02)
+                    .rotate(Math.PI / 2))
+                .pixelate(30)
+                .color(.12, .12, .8)
+                .out()
+
+            /* src(o0)
+                .saturate(1.01)
+                .scale(.1999)
+                .color(1.01, 1.01, 1.01)
+                .hue(.01)
+                .modulateHue(src(o1).hue(.3).posterize(-1).contrast(.7), 2)
+                .layer(src(o1)
+                    .luma()
+                    .mult(gradient(1)
+                        .saturate(.9)))
+                .out(o0)
+    
+            noise(1, .2)
+                .rotate(2, .5)
+                .layer(src(o0)
+                    .scrollX(.2))
+                .out(o1)
+    
+            render(o0) */
+
+        </script>
+
+    </header>
+
+    <section class="w3-container w3-center w3-content" id="init" style="max-width:1000px">
+        <h1 class="w3-wide w3-padding-64">Chris D'Iorio</h1>
+
+        <p class="w3-justify w3-padding-16">
+        </p>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+        <a href="https://github.com/cediorio/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/cediorio/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://n-odes.social/@chris"><i class="fa-brands fa-mastodon"></i></a>
+
+    </footer>
+
+</body>
+
+</html>
