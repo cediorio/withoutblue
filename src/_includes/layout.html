@@ -31,11 +31,7 @@
     }
   </style>
   <body>
-        <!-- Navigation -->
-    <nav class="w3-bar w3-black w3-top">
-        <a href="#" class="w3-button w3-bar-item w3-mobile"><h3>without blue</h3></a>
-        <a href="index.html#about" class="w3-button w3-bar-item"><h4>about</h4></a>
-    </nav>
+    {% include "partials/_navigation.njk" %}
     <!-- Header -->
     <header
       class="w3-display-container w3-content w3-wide"
@@ -48,42 +44,7 @@
       id="about"
       style="max-width: 1000px"
     >
-      <script src="https://unpkg.com/hydra-synth"></script>
-<p><canvas id="myCanvas" width="1000px" height="800px"></canvas></p>
-<script>
-  // create a new hydra-synth instance
-  var hydra = new Hydra({canvas: document.getElementById("myCanvas"), detectAudio: false})
-  osc(50, 0.01)
-    .diff(osc(50, 0.02).rotate(Math.PI / 2))
-    .pixelate(30)
-    .color(.12, .12, .8)
-    .out()
-  /* src(o0)
-    .saturate(1.01)
-    .scale(.1999)
-    .color(1.01, 1.01, 1.01)
-    .hue(.01)
-    .modulateHue(src(o1).hue(.3).posterize(-1).contrast(.7), 2)
-    .layer(src(o1)
-        .luma()
-        .mult(gradient(1)
-            .saturate(.9)))
-    .out(o0)
-
-   noise(1, .2)
-    .rotate(2, .5)
-    .layer(src(o0)
-        .scrollX(.2))
-    .out(o1)
-
-   render(o0) */
-</script>
-<h1>Chris D'Iorio</h1>
-<p>wrangling strings/viz/sound for a lifetime</p>
-<p>I write/code expressive experiments in English, hydra, orca, etc./etc...</p>
-<p>I have a book of poetry out from a few years ago:</p>
-<p><a href="https://www.amazon.ca/Without-Blue-Chris-DIorio-ebook/dp/B00S76NB2S/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;qid=1615089036&amp;sr=8-1"><img src="img/without_blue_cover.jpg" alt="Without Blue"></a> --&gt;</p>
-
+      {{ content }}
     </main>
 
     <!-- Footer -->
